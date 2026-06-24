@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <rect width="900" height="900" fill="#090b0f"/>
+  <rect x="80" y="80" width="740" height="740" fill="#141922" stroke="#ffffff" stroke-opacity=".14"/>
+  <rect x="150" y="150" width="250" height="250" fill="#9ef0ff"/>
+  <rect x="430" y="150" width="320" height="110" fill="#f3f5f7"/>
+  <rect x="430" y="290" width="170" height="110" fill="#e5ff8a"/>
+  <rect x="150" y="440" width="600" height="1" fill="#ffffff" opacity=".2"/>
+  <text x="150" y="545" fill="#ffffff" font-family="Arial" font-size="72" font-weight="700">BRAND</text>
+  <text x="150" y="610" fill="#9ba3ad" font-family="Arial" font-size="24">IDENTITY / GUIDELINE / SYSTEM</text>
+  <circle cx="675" cy="660" r="74" fill="none" stroke="#ffffff" stroke-opacity=".45" stroke-width="2"/>
+  <circle cx="675" cy="660" r="38" fill="#9ef0ff" opacity=".5"/>
+</svg>

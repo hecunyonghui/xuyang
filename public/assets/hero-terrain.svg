@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" preserveAspectRatio="none">
+  <defs>
+    <filter id="noise" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.009 0.03" numOctaves="3" seed="7"/>
+      <feDisplacementMap in="SourceGraphic" scale="28"/>
+    </filter>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b2b2b" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#cfcfcf" stop-opacity=".35"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="#090909"/>
+  <path d="M0 470 C190 420 260 390 430 418 C575 442 660 490 820 472 C956 456 1038 392 1210 412 C1364 430 1462 478 1600 452 L1600 700 L0 700 Z" fill="#3c3c3c" filter="url(#noise)"/>
+  <path d="M0 520 C176 488 312 506 450 530 C636 562 728 586 892 566 C1024 550 1140 506 1300 512 C1436 518 1518 548 1600 572 L1600 700 L0 700 Z" fill="#1b1b1b" opacity=".95"/>
+  <path d="M0 565 C120 540 244 550 400 590 C575 636 736 646 926 614 C1084 586 1202 552 1336 566 C1460 578 1546 610 1600 626 L1600 700 L0 700 Z" fill="#0f0f0f" opacity=".95"/>
+  <rect width="1600" height="700" fill="url(#fog)"/>
+</svg>
